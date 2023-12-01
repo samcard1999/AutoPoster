@@ -41,7 +41,7 @@ def login():
         time.sleep(2) # Wait for 2 seconds for the page to show upp
 
 def CargarMensaje():
-    print("Cargando mensaje.")
+    print("Cargando mensaje")
     # Mensaje
     archivo = open("mensaje.txt", 'r', encoding="utf8")
     msj = archivo.read()
