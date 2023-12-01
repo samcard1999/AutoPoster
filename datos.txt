@@ -1,0 +1,22 @@
++5358511936
+Sam99yo69
+
+if usar_imagen == 1:
+            #Cargar imagen
+            print("Enviando imagen")
+            img = self.driver.findElement(By.xpath("//input[@class='_n _5f0v']"))
+            img.send_keys(imagen)
+            time.sleep(10)
+
+        #Posteando
+        submit = self.driver.findElement(By.xpath('/html/body/div[1]/div[3]/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div/div[2]/div[1]/div/div/div/div[2]/div/div[1]/div[2]/div[3]/div/div[2]/div/div[2]/span/button'))
+        print("Posteando")
+        submit.click()
+        time.sleep(10)
+        cantidad_lograda += 1
+        print(" ")
+    except:
+        print("Ocurrio un error con el grupo " + str(i) + ". Link: " + grupo)
+    i += 1
+print("Se logró publicar en " + str(cantidad_lograda) + "/" + str(len(lista_grupos)) + " grupos.")
+print("Proceso finalizado")
