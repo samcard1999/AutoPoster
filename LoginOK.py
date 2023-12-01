@@ -100,7 +100,7 @@ i = 1
 cantidad_lograda = 0
 for grupo in lista_grupos:
     try:
-        print("Entrando al grupo " + str(i) + ". Link: " + grupo)
+        print("Entrando al grup " + str(i) + ". Link: " + grupo)
         driver.get(grupo)
         
 
