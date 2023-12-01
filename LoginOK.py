@@ -75,7 +75,7 @@ def CargarImagen():
 
 def CargarDireImagen(op):
     if (op == 1):
-        print("Cargando direccion de la imagen")
+        print("Cargando direccion de la imagen ")
         # Imagen
         imagen = os.path.join(os.getcwd(), "imagen.jpg")
     else:
