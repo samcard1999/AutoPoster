@@ -38,7 +38,7 @@ def login():
         login_button = driver.find_element(By.NAME,'login') 
         login_button.click() # Send mouse click
  
-        time.sleep(2) # Wait for 2 seconds for the page to show up
+        time.sleep(2) # Wait for 2 seconds for the page to show upp
 
 def CargarMensaje():
     print("Cargando mensaje")
